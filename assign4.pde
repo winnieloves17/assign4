@@ -217,8 +217,8 @@ void checkLineHit(){
     for (int i=0; i<aList.length-1; i++) {
     Alien alien = aList[i];
     if (alien!=null && !alien.die) {  
-      if (aList[i].aY+aList[i].aSize/2 <= 420
-          && aList[i].aY-aList[i].aSize/2 <= 420){
+      if (aList[i].aY+aList[i].aSize/2 < 420
+          && aList[i].aY-aList[i].aSize/2 < 420){
         status = GAME_PLAYING;
       }else{
         status = GAME_LOSE;
