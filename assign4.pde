@@ -284,7 +284,7 @@ void alienShoot() {
       if (lList[iShoot] != null){
         lList[iLaser] = new Laser(aList[iShoot].aX, aList[iShoot].aY);
       }
-        println(laserNum);
+        //println(laserNum);
   }
   }
 
